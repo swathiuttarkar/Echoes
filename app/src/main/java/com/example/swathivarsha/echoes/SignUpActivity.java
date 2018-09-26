@@ -21,8 +21,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.tedxdsce.tedxdsce.Beans.Person;
-import com.tedxdsce.tedxdsce.Helpers.SPHelper;
+import com.example.swathivarsha.echoes.Person;
+import com.example.swathivarsha.echoes.SPHelper;
 
 public class SignUpActivity extends AppCompatActivity{
 
