@@ -8,9 +8,9 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-import info.androidhive.databinding.R;
-import info.androidhive.databinding.databinding.PostRowItemBinding;
-import info.androidhive.databinding.model.Post;
+import com.example.swathivarsha.echoes.R;
+import com.example.swathivarsha.echoes.databinding.PostRowItemBinding;
+import com.example.swathivarsha.echoes.model.Post;
 
 public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.MyViewHolder> {
 

@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 
-import info.androidhive.databinding.BR;
+import com.example.swathivarsha.echoes.BR;
 
 public class User extends BaseObservable {
     String name;

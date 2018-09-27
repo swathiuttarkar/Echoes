@@ -15,11 +15,11 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-import info.androidhive.databinding.R;
-import info.androidhive.databinding.databinding.ActivityMainBinding;
-import info.androidhive.databinding.model.Post;
-import info.androidhive.databinding.model.User;
-import info.androidhive.databinding.utils.GridSpacingItemDecoration;
+import com.example.swathivarsha.echoes.R;
+import com.example.swathivarsha.echoes.databinding.ActivityMainBinding;
+import com.example.swathivarsha.echoes.model.Post;
+import com.example.swathivarsha.echoes.model.User;
+import com.example.swathivarsha.echoes.utils.GridSpacingItemDecoration;
 
 public class MainActivity extends AppCompatActivity implements PostsAdapter.PostsAdapterListener {
 
