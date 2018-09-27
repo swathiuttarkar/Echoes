@@ -1,4 +1,4 @@
-package com.example.swathivarsha.echoes;
+package com.example.swathivarsha.echoes.view;
 
 /**
  * Created by SWATHI.VARSHA on 26-09-2018.
@@ -25,7 +25,7 @@ public class Splashscreen extends Activity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent=new Intent(Splashscreen.this,MainActivity.class);
+                Intent intent=new Intent(Splashscreen.this,LoginActivity.class);
                 startActivity(intent);
                 finish();
             }

@@ -1,4 +1,4 @@
-package com.example.swathivarsha.echoes;
+package com.example.swathivarsha.echoes.view;
 
 import android.content.Intent;
 import android.graphics.Paint;
@@ -24,7 +24,6 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.example.swathivarsha.echoes.SPHelper;
 
 public class LoginActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener{
 

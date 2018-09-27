@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#e62b1e</color>
-    <color name="colorPrimaryDark">#ba2217</color>
+    <color name="colorPrimary">#1abc9c</color>
+    <color name="colorPrimaryDark">#16a085</color>
     <color name="colorAccent">#000000</color>
 
     <!--Custom collors-->
@@ -14,4 +14,5 @@
     <color name="colorDarkGray">#454544</color>
     <color name="colorSplash">#1a1a19</color>
     <color name="colorLink">#2059ba</color>
+    <color name="profile_meta">#333</color>
 </resources>

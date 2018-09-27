@@ -1,5 +1,6 @@
-package com.example.swathivarsha.echoes;
+package com.example.swathivarsha.echoes.view;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -21,8 +22,7 @@ public class BottomNavActivity extends AppCompatActivity {
                     mTextMessage.setText(R.string.title_home);
                     return true;
                 case R.id.navigation_stats:
-                    mTextMessage.setText(R.string.title_dashboard);
-                    return true;
+                    startActivity(new Intent(BottomNavActivity.this,BlankFragment.class));
                 case R.id.navigation_timeline:
                     mTextMessage.setText(R.string.title_notifications);
                     return true;

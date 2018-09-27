@@ -1,4 +1,4 @@
-package com.example.swathivarsha.echoes;
+package com.example.swathivarsha.echoes.view;
 
 import android.content.Context;
 import android.content.SharedPreferences;

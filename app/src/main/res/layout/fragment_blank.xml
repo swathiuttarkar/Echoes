@@ -32,7 +32,7 @@
                 android:id="@+id/population"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/speaker_photo"
+
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="30dp"
                 android:text="Population"
@@ -64,7 +64,7 @@
                 android:id="@+id/reason"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/speaker_photo"
+
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="30dp"
                 android:text="Migratory Reason"

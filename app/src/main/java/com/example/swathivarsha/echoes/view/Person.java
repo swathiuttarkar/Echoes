@@ -1,4 +1,4 @@
-package com.example.swathivarsha.echoes;
+package com.example.swathivarsha.echoes.view;
 
 /**
  * Created by Varsha on 23-10-2017.

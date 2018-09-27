@@ -1,4 +1,4 @@
-package com.example.swathivarsha.echoes;
+package com.example.swathivarsha.echoes.view;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -11,7 +11,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -21,8 +20,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.example.swathivarsha.echoes.Person;
-import com.example.swathivarsha.echoes.SPHelper;
 
 public class SignUpActivity extends AppCompatActivity{
 
